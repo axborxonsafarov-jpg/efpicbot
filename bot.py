@@ -274,4 +274,5 @@ if __name__ == "__main__":
     app.add_handler(InlineQueryHandler(inline_query))
     
     print("✅ Futbol AI Bot ishga tushdi...")
-    app.run_polling()
+    app.infinity_polling()
+
