@@ -4,7 +4,7 @@ import uuid
 import re
 import os
 
-TOKEN = os.getenv("8330664486:AAGLoPR6ISNvb1KIu8rne4_Rb7blhFYDFog", "")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 # ======== Foydalanuvchilar ro‘yxati ========
 users = set()   # start bosgan barcha user_id lar shu yerga qo‘shiladi
@@ -254,8 +254,7 @@ async def inline_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if query in players:
         image_url = players[query]["photo"]
     else:
-        image_url = "https://i.imgur.com/Qh7QmZp.jpeg"
-
+        image_url = "https://t.me/efpicchannel/39"
     result = [
         InlineQueryResultPhoto(
             id=str(uuid.uuid4()),
@@ -276,6 +275,7 @@ if __name__ == "__main__":
     
     print("✅ Futbol AI Bot ishga tushdi...")
     app.run_polling()
+
 
 
 
