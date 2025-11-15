@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: mybot
+    env: docker
+    plan: free
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: RATE_LIMIT_SECONDS
+        value: "10"
+      - key: CONCURRENCY_LIMIT
+        value: "3"
+      - key: IMAGE_SIZE
+        value: "1024x1024"
+      - key: GEN_TIMEOUT
+        value: "90"
