@@ -4,7 +4,7 @@ import uuid
 import re
 import os
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+TOKEN = os.getenv("8330664486:AAGLoPR6ISNvb1KIu8rne4_Rb7blhFYDFog", "")
 
 # ======== Foydalanuvchilar ro‘yxati ========
 users = set()   # start bosgan barcha user_id lar shu yerga qo‘shiladi
@@ -276,5 +276,6 @@ if __name__ == "__main__":
     
     print("✅ Futbol AI Bot ishga tushdi...")
     app.run_polling()
+
 
 
