@@ -1,5 +1,6 @@
-[phases.install]
-cmds = ["pip install httpx aiogram==3.7.0 telethon==1.36.0 fastapi==0.111.0 uvicorn==0.30.0 pydantic==2.7.0 cryptg"]
+[build]
+builder = "nixpacks"
 
-[start]
-cmd = "python bot.py"
+[deploy]
+startCommand = "python bot.py"
+restartPolicyType = "always"
