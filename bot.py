@@ -1,5 +1,6 @@
 import asyncio
 import logging
+import os
 import re
 import secrets
 import sqlite3
@@ -1613,5 +1614,6 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
 
 
