@@ -1,4 +1,4 @@
-mport asyncio
+import asyncio
 import logging
 import re
 import secrets
@@ -1613,3 +1613,4 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
