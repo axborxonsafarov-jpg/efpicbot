@@ -49,11 +49,6 @@ SHOP_DURATION   = 30
 HUMO_BOT_USERNAME = "HUMOcardbot"
 
 
-SHOP_PRICE    = 10_000
-SHOP_DURATION = 30                 # kunlar
-
-HUMO_BOT_USERNAME = "HUMOcardbot"
-
 # ══════════════════════════════════════════════
 #                   LOGGING
 # ══════════════════════════════════════════════
@@ -1614,6 +1609,7 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
 
 
 
