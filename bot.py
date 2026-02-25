@@ -42,8 +42,7 @@ ADMIN_IDS         = [6302762403]
 
 ADMIN_API_ID      = 39206752
 ADMIN_API_HASH    = "82b55fc7b6349fe4e68205c6a29e6af6"
-ADMIN_SESSION_STR = "1ApWapzMBu4ej14F4fwUlC9DjcZxQhQM-pWfWyTHKToQYGrWaotOdYcac966aIiUV0iJsxUcltQwcXvyULAIYgNZYjjmXybgXsV5FLhmAs_BNZ1Y1q_tYOuZKrVexOStrJ40sxqqKOw_riv4Ao8qu5f6QHm6p1exJ4OlTbpLwbSaswCr6DUmd3E2t-GU6CSCz71IdflLoaDdddN1vZUpGWwjSMwVckOK2DZPnS0H8XOZbYfcN2GIiC7eWnYSWmCe-zcOMGygjB_zH3PVMb8OEpTGhhnGQt8DiBCIykM1ZQJZoiTBG_RgimUubM7Ggt-YroCy2lyCwVUrfgyaCdxyud1VfJaJUPfE="
-
+ADMIN_SESSION_STR = os.environ.get("ADMIN_SESSION_STR", "")
 CARD_NUMBER       = "8600 1234 5678 9012"
 CARD_OWNER        = "FAMILIYA ISM"
 PAYMENT_TIME      = 5 * 60
@@ -2055,3 +2054,4 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
