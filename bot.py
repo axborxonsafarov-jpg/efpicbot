@@ -36,7 +36,7 @@ ADMIN_IDS    = [6302762403]              # Sizning Telegram ID
 
 ADMIN_API_ID      = 39206752              # Admin o'z API ID si
 ADMIN_API_HASH    = "82b55fc7b6349fe4e68205c6a29e6af6" # Admin o'z API HASH i
-ADMIN_SESSION_STR = "1ApWapzMBu4UVqsTyD8bwxhcDdYhZDnH1joXWYSXPv8oROucQLSVZsLCu6XoZ8zZl8WUHdMMVRmvtqu1T4bC91hvaJVkRHx6dJZQA5tIr7eSnPrLaYmynuiBAYx3QEDuIGkqKt8ru9JgyoZqKS3i0NuALgiAU5sqp6mtn6RA6UaIyBKSeNQYuYCvr00aUeKQ56DLQ6Io3q3LHPeK95U88MUm6fgRtZAy_TtJpOHLDIX3Ok3Ohhgk_MQPL51JTtf0pfO4bnVoI8jDYXHNCYzEX1keXYTQwlNJorVlgsZHsn_9_b2Ju4zxY8aufG_5B3Iw2ws2v6Mnf7q5cWilfGl6r3kZW69kdtMA="
+ADMIN_SESSION_STR = "1ApWapzMBu4ej14F4fwUlC9DjcZxQhQM-pWfWyTHKToQYGrWaotOdYcac966aIiUV0iJsxUcltQwcXvyULAIYgNZYjjmXybgXsV5FLhmAs_BNZ1Y1q_tYOuZKrVexOStrJ40sxqqKOw_riv4Ao8qu5f6QHm6p1exJ4OlTbpLwbSaswCr6DUmd3E2t-GU6CSCz71IdflLoaDdddN1vZUpGWwjSMwVckOK2DZPnS0H8XOZbYfcN2GIiC7eWnYSWmCe-zcOMGygjB_zH3PVMb8OEpTGhhnGQt8DiBCIykM1ZQJZoiTBG_RgimUubM7Ggt-YroCy2lyCwVUrfgyaCdxyud1VfJaJUPfE="
 
 CARD_NUMBER  = "8600 1234 5678 9012"
 CARD_OWNER   = "FAMILIYA ISM"
@@ -1609,6 +1609,7 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
 
 
 
