@@ -35,7 +35,7 @@ ADMIN_IDS    = [6302762403]              # Sizning Telegram ID
 
 ADMIN_API_ID      = 39206752              # Admin o'z API ID si
 ADMIN_API_HASH    = "82b55fc7b6349fe4e68205c6a29e6af6" # Admin o'z API HASH i
-ADMIN_SESSION_STR = ""                    # Bo'sh qolsa — bot ishganda so'raydi
+ADMIN_SESSION_STR = os.environ.get("ADMIN_SESSION_STR", "")
 
 CARD_NUMBER  = "8600 1234 5678 9012"
 CARD_OWNER   = "FAMILIYA ISM"
@@ -1613,4 +1613,5 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
 
