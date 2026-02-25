@@ -44,7 +44,7 @@ PAYMENT_TIME = 5 * 60
 MIN_AMOUNT   = 1_000
 MAX_AMOUNT   = 10_000_000
 
-SHOP_PRICE      = 10_000
+SHOP_PRICE      = 1_000
 SHOP_DURATION   = 30
 HUMO_BOT_USERNAME = "HUMOcardbot"
 
@@ -1614,6 +1614,7 @@ if __name__ == "__main__":
     print("O'rnatish: pip install aiogram telethon fastapi uvicorn httpx")
     print()
     asyncio.run(main())
+
 
 
 
